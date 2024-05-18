@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: blue;
+    margin-bottom: 20px;
+}
+
+label, #input, #history, #output, #result, button {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px; /* Adjust this as needed */
+}
+
+#output, #result {
+    font-size: 18px;
+}
+
+#input {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 25px;
+    width: 25%;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    /* Adjust this as needed */
+}
+
+#submit {
+    width: 25%; /* Half the width of other buttons */
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: darkblue;
+}
+
+#play-again {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#play-again:hover {
+    background-color: darkgreen;
+}
+
+/* History display CSS */
+#history {
+    color: orange;
+    font-size: 16px;
+    font-weight: bold;
+    align-content: center;
+}
+
+
