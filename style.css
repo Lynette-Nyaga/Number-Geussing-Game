@@ -26,7 +26,7 @@ label, #input, #history, #output, #result, button {
     padding: 5px;
     font-size: 16px;
     border-radius: 25px;
-    width: 25%;
+    width: 60%;
 }
 
 button {
@@ -38,7 +38,7 @@ button {
 }
 
 #submit {
-    width: 25%; /* Half the width of other buttons */
+    width: 40%; /* Half the width of other buttons */
     background-color: blue;
     color: white;
     border: none;

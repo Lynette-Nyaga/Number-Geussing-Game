@@ -20,14 +20,12 @@ submitButton.addEventListener("click", function() {
 if(!running) return
   let guess=parseInt(input.value);
 
-
-    
-
     if (isNaN(guess) || guess<min||guess>max){
       outputMessage.textContent=("please enter a valid number!");
     }
     else
     {
+        
         attempts ++;
         guesses.push(guess);
         displayGuesses();
@@ -40,7 +38,9 @@ if(!running) return
             resultDisplay.textContent=(`Correct !!!!. The answer was ${answer} and it took you ${attempts} attempts`);
             running=false;
             playAgainButton.style.display = "block";
-        }
+            }
+
+        input.value="";
     }
 });
 function displayGuesses() {
